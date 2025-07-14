@@ -42,7 +42,7 @@ CREATE TABLE `student_data` (
   `grades` varchar(1) NOT NULL,
   `allergies` varchar(100) DEFAULT NULL,
   `medical_condition` varchar(100) DEFAULT NULL,
-  `enrolment_date` datetime(6) 
+  `enrolment_date` datetime(6) NOT NULL,
   `password` varchar(100) NOT NULL,
   `username` varchar(100) NOT NULL,
   `stream_file` varchar(100) NOT NULL,
